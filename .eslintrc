@@ -1,0 +1,33 @@
+{
+  "rules": {
+    "no-undef": "off",
+    "react/prop-types" : "off",
+    "react/no-unescaped-entities": 0,
+    "prettier/prettier": ["error", { "endOfLine": "auto" }]
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "babelOptions": {
+      "presets": [
+        "@babel/preset-react"
+      ]
+    },
+    "requireConfigFile": false,
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "18.2.0"
+    }
+  }
+}

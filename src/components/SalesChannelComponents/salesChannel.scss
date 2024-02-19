@@ -1,0 +1,33 @@
+  .sc-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .sc-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .sc-card:hover {
+    transform: scale(1.1);
+  }
+
+  .channel-icon{
+    font-size: 24px;
+    color: grey;
+  }
+  .channel-icon:hover{
+    transform: scale(1.2);
+  }
+  
